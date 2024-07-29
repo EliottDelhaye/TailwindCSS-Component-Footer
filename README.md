@@ -32,5 +32,4 @@ To use this component in your project, simply copy the HTML code from the `foote
 
 ## Access
 
-Access the live version of the footer component here:
-[https://tailwind-css-component-e-commerce-products-gallery.eliottdelhaye.com/](https://tailwind-css-component-e-commerce-products-gallery.eliottdelhaye.com/)
+Access the live version of the footer component here: eliottdelhaye.github.io/TailwindCSS-Component-Footer/
