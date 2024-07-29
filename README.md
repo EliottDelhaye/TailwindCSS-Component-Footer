@@ -32,4 +32,4 @@ To use this component in your project, simply copy the HTML code from the `foote
 
 ## Access
 
-Access the live version of the footer component here: eliottdelhaye.github.io/TailwindCSS-Component-Footer/
+Access the live version of the footer component here: [eliottdelhaye.github.io/TailwindCSS-Component-Footer/](https://eliottdelhaye.github.io/TailwindCSS-Component-Footer/)
