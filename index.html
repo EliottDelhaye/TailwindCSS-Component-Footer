@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col h-full bg-gray-100">
+    <main>
+      <h1 class="text-5xl text-center m-10 font-semibold">Le footer</h1>
+    </main>
+    <footer class="flex flex-col items-center pt-10 mt-auto bg-white">
+      <!-- <div
+        class="w-full flex justify-between gap-5 flex-col lg:flex-row px-10 max-w-2xl lg:max-w-7xl"
+      > -->
+      <div
+        class="max-w-xl mx-auto p-4 grid grid-cols-2 lg:max-w-7xl lg:grid-cols-6 md:py-10"
+      >
+        <div class="m-2 md:m-5">
+          <h5 class="font-semibold mb-3 text-gray-900 text-lg sm:text-xl">
+            Best food
+          </h5>
+          <ul>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> French </a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Italian</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Japanese</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Chinese</a>
+            </li>
+          </ul>
+        </div>
+        <div class="m-2 md:m-5">
+          <h5 class="font-semibold mb-3 text-gray-900 text-lg sm:text-xl">
+            Services
+          </h5>
+          <ul>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Suit</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Sport</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Pool</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Taxi</a>
+            </li>
+          </ul>
+        </div>
+        <div class="m-3 md:m-5">
+          <h5 class="mb-3 text-gray-900 text-lg font-semibold sm:text-xl">
+            Worldwide
+          </h5>
+          <ul>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Tokyo</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> New York</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> London</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Moscow</a>
+            </li>
+          </ul>
+        </div>
+        <div class="m-3 md:m-5">
+          <h5 class="mb-3 text-gray-900 text-lg font-semibold sm:text-xl">
+            Rated 10/10
+          </h5>
+          <ul>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Tripadvisor</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Airbnb</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Booking</a>
+            </li>
+            <li class="my-2 text-gray-800 text-md sm:text-lg">
+              <a href="#"> Hotel</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-span-2 mt-5 md:m-5">
+          <h3
+            class="mb-5 font-semibold text-gray-900 tracking-wider uppercase text-lg sm:text-lg"
+          >
+            Subscribe to our newsletter
+          </h3>
+          <form>
+            <label for="email-address" class="sr-only">Email address</label>
+            <!-- sr-only permet de cacher le label mais de le garder pour les lecteurs d'écran -->
+            <input
+              type="email"
+              name="email-address"
+              id="email-address"
+              required
+              placeholder="Enter your email"
+              class="appearance-none w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-40"
+            />
+            <button
+              class="w-full mt-3 bg-black rounded-md py-2 px-4 font-medium text-white"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="w-full flex flex-col justify-between items-center gap-5 px-5 p-5 mt-20 border-t-[1px] lg:flex-row"
+      >
+        <ul class="flex space-x-5 lg:order-2">
+          <a href="#">
+            <img
+              class="w-6"
+              src="./ressources/twitter-sign.svg"
+              alt="twitter icon"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="w-6"
+              src="./ressources/facebook.svg"
+              alt="facebook icon"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="w-6"
+              src="./ressources/instagram.svg"
+              alt="instagram icon"
+            />
+          </a>
+          <a href="#">
+            <img class="w-6" src="./ressources/tiktok.svg" alt="tiktok icon" />
+          </a>
+        </ul>
+        <p class="text-gray-400">&copy; 2024 Delhaye Eliott</p>
+      </div>
+    </footer>
+  </body>
+</html>
